@@ -55,6 +55,19 @@
 
 }
 
+.brand-title-container {
+  display: flex;
+  margin-left: 7rem;
+
+  .brand-title {
+    padding: 10px 20px;
+    background: transparent;
+    border: 0.6px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+}
+
 
 
 
