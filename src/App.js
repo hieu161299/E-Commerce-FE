@@ -1,16 +1,15 @@
 import './App.css';
-import Banner from "./components/homePage/banner/Banner";
-import Header from "./components/homePage/header/Header";
-import SlideBrand from "./components/homePage/slide_brand/SlideBrand";
-import TopSales from "./components/homePage/top_saler/TopSales";
+import {Route, Routes} from "react-router-dom";
+import HomePage from "./components/homePage/HomePage";
+import ProductComponent from "./components/all_product/ProductComponent";
 
 function App() {
     return (
         <div className="App">
-            <Header></Header>
-            <Banner></Banner>
-            <SlideBrand></SlideBrand>
-            <TopSales></TopSales>
+            <Routes>
+                <Route path={'/'} element={<HomePage/>}></Route>
+                <Route path={'/products/:brandName'} element={<ProductComponent/>}></Route>
+            </Routes>
         </div>
     );
 }

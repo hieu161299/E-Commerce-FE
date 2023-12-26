@@ -31,9 +31,9 @@ const Header = () => {
                         </Link>
                     </div>
                     <div className="col-lg-6 col-6 text-left">
-                        <div className="input-group">
-                            <input type="text" className="form-control border rounded-5" placeholder="Search for products"/>
-                        </div>
+                        {/*<div className="input-group">*/}
+                        {/*    <input type="text" className="form-control border rounded-5" placeholder="Search for products"/>*/}
+                        {/*</div>*/}
                     </div>
                     <div className="col-lg-3 col-6 text-right d-flex align-items-center pe-5">
                         <div className='d-flex justify-content-ecenter me-3 mt-2'>

@@ -15,7 +15,6 @@ const TopSales = () => {
     const [topSales, setTopSales] = useState([]);
     useEffect(() => {
         ProductService.getTop5().then((res) => {
-            console.log(res.data);
             setTopSales(res.data);
         }).catch(err => {
             console.log(err);

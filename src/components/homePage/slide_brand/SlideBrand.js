@@ -36,7 +36,7 @@ const SlideBrand = () => {
                                 return (
                                     <div className="col-lg-4 col-md-6 main-brand" key={brand.id}>
                                         <SwiperSlide className="brand-item border rounded overflow-hidden">
-                                            <Link to={`/brand-detail`} className="nav-link">
+                                            <Link to={`/products/${brand.name}`} className="nav-link">
                                                 <div className="position-relative overflow-hidden">
                                                     <div>
                                                         <img style={{height: '300px', width: '100%'}} src={brand.image}
